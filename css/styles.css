@@ -9,7 +9,7 @@ body{
 h1 {
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 3.5vw;
+    font-size: 3.5rem;
     line-height: 1.5;
     color: white;
     margin-top: 100px;
@@ -21,7 +21,7 @@ h1 {
 
 .download-button1 {
     margin: 5% 3% 5% 0;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .download-button1:hover {
@@ -31,16 +31,16 @@ h1 {
 
 .download-button2 {
     margin: 5% 3% 5% 0;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .navbar {
-    padding-bottom: 4.5vw;
+    padding-bottom: 4.5rem;
 }
 
 .navbar-brand {
     font-family: 'Ubuntu';
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
@@ -51,7 +51,7 @@ h1 {
 .nav-link {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .phone-img {
@@ -65,7 +65,7 @@ h1 {
 .feature {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 #features {
@@ -76,7 +76,7 @@ h1 {
 .fa-solid {
     color: #ef8172;
     margin: 100px auto 20px;
-    font-size: 4vw;
+    font-size: 4rem;
 }
 
 .fa-solid:hover {
@@ -87,7 +87,6 @@ h1 {
     color: #8f8f8f;
     padding-left: 20%;
     padding-right: 20%;
-    font-size: 1vw;
 }
 
 #testimonials {
