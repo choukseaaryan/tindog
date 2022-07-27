@@ -16,17 +16,12 @@ h1 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .download-button1 {
     margin: 5% 3% 5% 0;
     font-size: 1.5rem;
-}
-
-.download-button1:hover {
-    color: black;
-    background-color: white;
 }
 
 .download-button2 {
@@ -55,10 +50,10 @@ h1 {
 }
 
 .phone-img {
-    position: relative;
-    width: 280px;
-    left: 10%;
-    top: 10px;
+    position:relative;
+    width: 60%;
+    top: 20%;
+    left: 20%;
     transform: rotate(25deg);
 }
 
@@ -69,8 +64,11 @@ h1 {
 }
 
 #features {
+    background-color: #fff;
     text-align: center;
     padding: 7% 15%;
+    position: relative;
+    top: -100px;
 }
 
 .fa-solid {
@@ -125,11 +123,18 @@ h1 {
 
 #pricing {
     text-align: center;
-    padding: 3%;
+    padding: 10%;
 }
 
-.card-header {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 1.5rem;
+.card {
+    margin: 5% 0;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.price-button:hover {
+    background-color: #fff;
+    color: #000;
 }
