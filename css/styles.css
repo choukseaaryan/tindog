@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: 'Ubuntu';
+    font-weight: 700;
 }
 
 h1 {
@@ -68,7 +68,7 @@ h1 {
     text-align: center;
     padding: 7% 15%;
     position: relative;
-    top: -100px;
+    top: -150px;
 }
 
 .fa-solid {
@@ -137,4 +137,58 @@ h1 {
 .price-button:hover {
     background-color: #fff;
     color: #000;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    padding: 7% 15%;
+}
+
+.footer-icons {
+    color: #000;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.footer-icons:hover {
+    color: #ff4c68;
+}
+
+.footer-text {
+    font-family: 'Montserrat';
+    color: #8f8f8f;
+    margin-top: 2%;
+}
+
+
+
+
+@media (max-width: 990px) {
+    
+    #title {
+        text-align: center;
+    }
+    .phone-img {
+        position: static;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+    }
+
+    #features {
+        position: static;
+    }
 }
